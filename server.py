@@ -28,7 +28,7 @@ def calculate_checksum(file_path):
     return sha256.hexdigest(), md5.hexdigest()
 
 def main():
-    host = '0.0.0.0'
+    host = '54.204.64.212'
     port = 12345
 
     file_name = 'random_text_file.txt'  # File name without directory
