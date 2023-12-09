@@ -243,7 +243,7 @@ volumes:
 ```
 
 ● Integrate a Slack webhook (or another app of your choice) for deployment notifications
-
+ - I have used email notification for Webhook.
 Please check workflow file.
 
 ![Alt text](image-6.png)
