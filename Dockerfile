@@ -13,8 +13,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Create a volume named "servervol" and mount it at "/serverdata" in the container
 VOLUME /serverdata
 
-# Make port 12345 available to the world outside this container
-# EXPOSE 12345
-
 # Run server.py when the container launches
 CMD ["python", "./server.py"]
